@@ -1,0 +1,3 @@
+import h5py
+path = 
+data = h5py.File(path, "r", libver='latest', swmr=True)
