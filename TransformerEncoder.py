@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.utils.data
 import os
-from models.ClassificationModel import ClassificationModel
-from models.transformer.Models import Encoder
+from ClassificationModel import ClassificationModel
+from transformer.Models import Encoder
 
 SEQUENCE_PADDINGS_VALUE=-1
 
